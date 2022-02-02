@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//Удалить i-ый элемент из слайса.
+
 func main() {
 	sl := []int{22,12,45,1,77}
 	var n int
