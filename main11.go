@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//Реализовать пересечение двух неупорядоченных множеств.
+
 func FindCoincidences(A,B []int)  {
 	M := make(map[int]int)
 	answer := make([]int,0)

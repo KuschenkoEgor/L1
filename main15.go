@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"unicode/utf8"
 )
-
+//К каким негативным последствиям может привести данный фрагмент кода,
+//и как это исправить? Приведите корректный пример реализации.
 func createHugeString(size int) string {
 	var v string
 	for i := 0; i < size; i++ {

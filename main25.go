@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 )
-
+//Реализовать собственную функцию sleep.
 func MySleep1(sec int) {
 	<-time.After(time.Second * time.Duration(sec))
 	fmt.Printf("%v seconds has passed\n", sec)
